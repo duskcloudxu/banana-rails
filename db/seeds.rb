@@ -16,7 +16,7 @@ donor1 = Donor.create!(
 	address_city: "Seattle",
 	address_state: "WA",
 	address_zip: 98104,
-	business_license: "9198DD435AS3456",
+	business_license: "9198DD435",
 	account_status: "active",
 	pickup_instructions: 'Please go to the front desk.'
 )
@@ -28,7 +28,7 @@ donor2 = Donor.create(
 	address_city: "Seattle",
 	address_state: "WA",
 	address_zip: 98134,
-	business_license: "DSJ0984DFGK32",
+	business_license: "DSJ0984DF",
 	account_status: "pending",
 	pickup_instructions: 'Please go to the front desk.'
 )

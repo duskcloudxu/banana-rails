@@ -15,7 +15,7 @@ class Donor < ApplicationRecord
 
 	validates :account_status, presence: true
 	validates :organization_name, presence: true
-	validates :business_license, presence: true, format: { is: 9 }
+	validates :business_license, presence: true, length: { is: 9 }
 	#TODO: add operation hours ??
 
 	geocoded_by :address
